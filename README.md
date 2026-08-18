@@ -13,6 +13,14 @@ The system demonstrates sensor interfacing, driver abstraction, UART communicati
 - 4.7 kΩ pull-up resistor
 - Wokwi simulator
 
+### Wokwi Circuit
+
+![Wokwi Circuit](sensor.jpeg)
+
+### Simulation Output
+
+![Simulation Output](sensor2.png)
+
 ## Communication
 
 ### Sensor Interface
