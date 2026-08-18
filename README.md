@@ -1,4 +1,4 @@
-# Sensor Interface + Communication System
+# Sensor Interface and Communication System
 
 ## Overview
 
