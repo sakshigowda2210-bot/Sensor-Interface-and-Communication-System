@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "Sakshi",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+    {
+      "type": "wokwi-ds18b20",
+      "id": "temp1",
+      "top": 46.87,
+      "left": -72.72,
+      "attrs": { "temperature": "35.8" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -15.25,
+      "left": -105.6,
+      "attrs": { "value": "4700" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "temp1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "temp1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "r1:2", "esp:3V3", "green", [ "v0" ] ],
+    [ "r1:1", "temp1:DQ", "green", [ "v115.2", "h48" ] ],
+    [ "esp:4", "temp1:DQ", "green", [ "h38.4", "v67.2", "h-192" ] ]
+  ],
+  "dependencies": {}
+}
