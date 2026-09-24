@@ -1,5 +1,7 @@
 # Sensor Interface and Communication System
 
+Run in wokwi: https://wokwi.com/projects/472495675382144001
+
 ## Overview
 
 An embedded temperature monitoring system developed using ESP32 and a DS18B20 digital temperature sensor.
