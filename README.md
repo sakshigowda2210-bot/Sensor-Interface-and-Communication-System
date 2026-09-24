@@ -1,6 +1,6 @@
 # Sensor Interface and Communication System
 
-Run in wokwi: https://wokwi.com/projects/472495675382144001
+Run in Wokwi: https://wokwi.com/projects/472495675382144001
 
 ## Overview
 
