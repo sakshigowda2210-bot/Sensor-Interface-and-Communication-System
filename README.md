@@ -80,6 +80,7 @@ Temperature limit set to: 20.00 °C
              |                       |
           DS18B20                    PC
 
+The DS18B20 driver uses the OneWire and DallasTemperature libraries.
 The project uses a modular architecture where the application communicates with the sensor through a dedicated DS18B20 driver and communicates with the user through a UART interface.
 
 ## Project Structure
